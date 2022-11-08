@@ -32,6 +32,6 @@
 * Pojo Class (Plain Old Java Object)
 
 * ObjectMapper: JSON ve POJO (Plain Old Java Objects) okuma ve yazma işlevlerinin yanı sıra
-    dönüştürmeleri gerçekleştirmek için de kullanılır.
+                dönüştürmeleri gerçekleştirmek için de kullanılır.
 
 * API den alınan response'ları bilgisayara text dosyası olarak kaydetme ve doğrulama yapma.

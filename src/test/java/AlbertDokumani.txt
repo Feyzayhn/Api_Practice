@@ -1,0 +1,509 @@
+1)  Yazılım Testi Nedir?
+
+   Bir yazılımın, kendisinden beklenen özellikleri karşılayıp karşılayamadığını
+   incelemek amacıyla yapılan işlemlerdir. Bu şekilde yazılımdaki hatalar bulunup düzeltilebilir
+   ve gereksinimlere uygun hale getirilebilir
+
+
+
+2)  Yazılım Gereksinimleri Belirtimi nedir? SRS Nedir?
+
+    SRS, amacı, desteklenecek ana iş süreçleri, özellikler,
+    temel performans parametreleri ve davranış dahil olmak üzere geliştirilecek bir yazılım ürününün
+    kapsamlı bir tanımını sağlamak olan bir belgedir. Bu nedenle, geliştirme sürecine rehberlik eden
+    ve herkesi doğru yolda tutan bir harita görevi görür.
+    Bir SRS genellikle, yazılım geliştirme sürecinin en erken aşaması olan gereksinim
+    mühendisliği aşamasının sonunda imzalanır. Hem işlevsel hem de işlevsel
+    olmayan gereksinimleri içerir. İşlevsel gereksinimler, bir yazılım sisteminin ve bileşenlerinin işlevini
+    (bir üniversite kütüphane sistemini tanımlarken kitapların önceden ayırtılması gibi) tanımlarken,
+    işlevsel olmayan gereksinimler, yazılım sisteminin ve bileşenlerinin (güvenlik veya hizmet gibi)
+    performans özelliklerini tanımlar.
+
+
+
+3)  Yazılım Geliştirme Yaşam Döngüsü SDLC Nedir?
+
+SDLC mümkün olan en kısa sürede, en yüksek kalitede ve en düşük maliyetle
+yazılım üreten bir süreçtir. SDLC, bir organizasyonun iyi test edilmiş ve üretimde kullanıma
+hazır yüksek kaliteli yazılımı hızla üretmesine yardımcı olan iyi yapılandırılmış bir aşama akışı sağlar.
+
+     SDLC altı aşamadan oluşur:
+
+     1.Aşama: Planlama
+              “Ne istiyoruz?” SDLC’ nin bu aşamasında ekip, analiz edilen
+              gereksinimlerin uygulanması için gereken maliyeti ve kaynakları belirler.
+              Ayrıca ilgili riskleri detaylandırır ve bu riskleri azaltmak için alt planlar sunar.
+              Başka bir deyişle, ekip projenin fizibilitesini ve projeyi en düşük riski
+              göz önünde bulundurarak nasıl başarılı bir şekilde uygulayabileceklerini belirlemelidir
+
+    2. Aşama: Tasarım
+               Ekip, ürün için geniş bir dizi gereksinim ve hedef üzerinde anlaşmaya vardıktan sonra,
+               bir sonraki adım bir tasarım spesifikasyonu oluşturmak olacaktır. Bu, “Bunu nasıl inşa edeceğiz?”
+               Sorusuna cevap vermelidir.
+               Bir ürün ekibi için bu aşama, önerilen çalışmanın öncelik sırasının belirlenmesini,
+               ürünün yol haritasının oluşturulması aşamasıdır. Bu hem geliştirme hem de ürün ekiplerindeki
+               herkesin amaçlarının daha net bir resmini elde etmesine yardımcı olacaktır.
+
+    3.Aşama: Uygulama veya Kodlama
+
+              Bu, mühendislik ekibinin ürünü fiilen kodladığı aşamadır.
+              Bu aşamada geliştirme ekibi, yol haritasında iletilen üst düzey genel bakışı
+              bir dizi taktiksel görev, bitiş tarihi ve günlük çalışma programlarına dönüştürür.
+
+    4. Aşama: Test
+              Ekip, yazılımın bir sürümünü tamamladıktan sonra, onu bir test ortamına yayınlayacak.
+              Burada, QA ekibi ve geliştiriciler, herhangi bir kusur, hata veya diğer sorunları
+              tespit etmek için uygulamanın tüm alanlarını test edecek.
+
+    5. Aşama: Dağıtım
+
+              Bu aşamada ekip, tüm kusurları düzelttiğinden ve yazılımın üzerinde anlaşmaya varılan
+              hedeflere ve özelliklere göre oluşturulduğundan emindir.
+              Şimdi yazılımı üretim ortamına bırakma zamanı. Bu, ürünün genel olarak müşterilerin
+              satın alması ve kullanması için hazır olacağı anlamına gelir.
+
+    6. Aşama: Bakım
+
+              Yazılımın artık canlı olması ve müşteriler tarafından kullanılmasıyla birlikte,
+              geliştirme ekibinin odak noktası onu korumaya kayacaktır.
+              Geliştiricilerin iyileştirmeler, hata düzeltmeleri ve yeni özellikler için
+              istekleri karşılamaya hazır olmaları gerekecektir. Bu talepler birçok kaynaktan
+              (satışlar, yöneticiler, müşteriler) gelecek, ancak ürün yönetimi ekibi,
+              geliştiricilerin üzerinde çalışması için bu girişimlerden hangisinin ürün
+              yol haritasına gireceğini belirleyecektir.
+
+
+4)  Yazılım Testi Yaşam Döngüsü STLC Nedir?
+
+        Yazılım Testi Yaşam Döngüsü, kalite hedeflerinin karşılandığından emin olmak için belirli
+        bir sırayla yürütülmesi gereken belirli adımları olan bir test sürecini ifade eder.
+        STLC sürecinde her faaliyet planlı ve sistematik bir şekilde yürütülür.
+        Her aşamanın farklı hedefleri ve çıktıları vardır. STLC’de farklı organizasyonların
+        farklı aşamaları vardır; ancak temel aynı kalır.
+
+
+         STLC’nin 8 aşaması vardır:
+
+        1. Gereksinim Aşaması:
+          STLC’nin bu aşamasında, gereksinimleri analiz edin ve inceleyin.
+          Diğer ekiplerle beyin fırtınası yapın ve gereksinimlerin test edilebilir
+          olup olmadığını bulmaya çalışın. Bu aşama, testin kapsamını belirlemeye yardımcı olur.
+          Herhangi bir özellik test edilebilir değilse, azaltma stratejisinin planlanabilmesi için bu aşamada bunu bildirin.
+
+        2. Planlama Aşaması:
+           Pratik senaryolarda, Test planlama, test sürecinin ilk adımıdır.
+           Bu aşamada, test hedeflerine ulaşılmasına yardımcı olacak faaliyetleri ve kaynakları belirleriz.
+           Planlama sırasında, ölçümleri, bu ölçümleri toplama ve izleme yöntemini de belirlemeye çalışırız.
+           Test Planlama Faaliyetleri
+
+           Çeşitli test türleri için test planı/strateji belgesinin hazırlanması
+               • Test aracı seçimi
+               • Test çabası tahmini
+               • Kaynak planlaması ve rol ve sorumlulukların belirlenmesi
+               • Eğitim gereksinimi
+
+           Çıktılar
+               • Test planı/strateji belgesi
+               • Efor tahmin belgesi
+
+
+           3. Analiz Aşaması:
+              Bu STLC aşaması, test edilecek ‘NE’ i tanımlar. Test koşullarını temel olarak
+              gereksinimler belgesi, ürün riskleri ve diğer test temelleri aracılığıyla belirleriz.
+              Test koşulu, gerekliliğe kadar izlenebilir olmalıdır.
+
+
+           Test koşullarının tanımlanmasını etkileyen çeşitli faktörler vardır:
+                     • Seviyeler ve test derinliği
+                     • Ürünün karmaşıklığı
+                     • Ürün ve proje riskleri
+                     • Yazılım geliştirme yaşam döngüsü dahil.
+                     • Test yönetimi
+                     • Ekibin becerileri ve bilgisi.
+                     • Paydaşların mevcudiyeti.
+
+                  Test koşullarını detaylı bir şekilde yazmaya çalışmalıyız.
+                  Ayrıntılı test koşulu yazmanın en önemli avantajı, test senaryoları test
+                  koşulu bazında yazılacağı için test kapsamını artırmasıdır, bu detaylar daha detaylı
+                  test senaryolarının yazılmasını tetikleyerek sonunda kapsamı artıracaktır.
+                  Ayrıca, testin çıkış kriterlerini tanımlayın,
+                  yani testi ne zaman durduracağınız bazı koşulları belirleyin.
+
+
+
+           4. Tasarım aşaması:
+              Bu aşama test edilecek ‘NASIL’ ı tanımlar. Bu aşama aşağıdaki görevleri içerir:
+                      • Test durumunu detaylandırın. Kapsamı artırmak için test koşullarını birden çok alt koşula ayırın.
+                      • Test verilerini tanımlayın ve alın
+                      • Test ortamını belirleyin ve kurun.
+                      • Gereksinim izlenebilirlik metriklerini oluşturun
+                      • Test kapsamı ölçümleri oluşturun.
+
+
+
+           5. Uygulama Aşaması:
+              Bu STLC aşamasındaki ana görev, ayrıntılı test senaryolarının oluşturulmasıdır.
+              Test senaryolarına öncelik verin, hangi test senaryosunun regresyon paketinin
+              bir parçası olacağını da belirleyin. Test senaryosunu tamamlamadan önce,
+              test senaryolarının doğruluğundan emin olmak için incelemenin yapılması önemlidir.
+              Ayrıca, gerçek yürütme başlamadan önce test senaryolarının onayını almayı unutmayın.
+
+
+
+           6. Yürütme Aşaması:
+              Adından da anlaşılacağı gibi bu, gerçek uygulamanın gerçekleştiği
+              Yazılım Test Yaşam Döngüsü aşamasıdır. Ancak infazınıza başlamadan önce,
+              giriş kriterinizin karşılandığından emin olun. Test durumlarını yürütün,
+              herhangi bir tutarsızlık durumunda hataları günlüğe kaydedin.
+              İlerlemenizi izlemek için eşzamanlı olarak izlenebilirlik metriklerinizi doldurun.
+
+
+                   Test Yürütme Faaliyetleri
+                           • Plana göre testleri yürütün
+                           • Başarısız durumlar için hata kayıtlarını belgelendirin
+                           • Düzeltilen hataları tekrar test edin
+                           • Hataların kapanışı için takip edin
+
+
+
+           7. Sonuç Aşaması:
+              • Bu STLC aşaması, çıkış kriterleri ve raporlamaya odaklanır.
+                Projenize ve paydaşlarınızın seçimine bağlı olarak, haftalık raporun günlük raporunu vb.
+                Göndermek isteyip istemediğinize karar verebilirsiniz.
+
+              • Gönderebileceğiniz farklı rapor türleri vardır (DSR — Günlük durum raporu,
+                WSR — Haftalık durum raporları), ancak önemli olan, raporun içeriğinin değişmesi
+                ve raporlarınızı kime gönderdiğinize bağlı olmasıdır.
+
+              • Proje yöneticileri test geçmişine aitse, projenin teknik yönüyle daha çok ilgilenirler,
+                bu nedenle teknik konuları raporunuza dahil edin (geçen test vakalarının sayısı,
+                ortaya çıkan kusurlar, önem derecesi 1 kusurlar, vb.).
+
+              • Ancak, üst paydaşlara raporlama yapıyorsanız, teknik konularla ilgilenmeyebilirler,
+                bu nedenle onları test yoluyla hafifletilen riskler hakkında bildirin.
+
+
+
+           8.Kapanış Aşaması:
+                Kapatma faaliyetleri için görevler şunları içerir:
+                    • Testin tamamlanıp tamamlanmadığını kontrol edin.
+                      Tüm test senaryolarının kasıtlı olarak yürütüldüğü veya azaltıldığı.
+                      Açılan önem 1 kusuru olmadığını kontrol edin.
+
+                    • Alınan dersler toplantısı yapın ve alınan dersler belgesi oluşturun.
+                      (Neyin iyi gittiğini, iyileştirmelerin kapsamını ve nelerin geliştirilebileceğini dahil edin)
+
+                Test Döngüsü Kapanış Faaliyetleri,
+                    • Süre, Test kapsamı, Maliyet, Yazılım, Kritik İş Hedefleri,
+                      Kalite temelinde döngü tamamlama kriterlerini değerlendirin
+
+                    • Test metriklerini yukarıda maddelere dayanarak hazırlayın
+                    • Projeden öğrenilenleri belgeleyin
+                    • Test kapanış raporu hazırlayın
+                    • Ürünün müşteriye müşteriye niteliksel ve niceliksel olarak raporlanması.
+                    • Hata dağılımının türüne ve ciddiyetine göre test sonucu analizi
+                    • Test Döngüsü Kapanışının Çıktıları
+                    • Test Kapanış raporu,
+                    • Test metrikleri
+
+
+
+
+5)  STLC ve SDLC arasındaki fark nedir?
+                • SDLC, yazılım geliştirme sürecinde yer alan tüm standart aşamaları tanımlarken,
+                  STLC süreci, ürünün kalitesini iyileştirmek için çeşitli etkinlikleri tanımlar.
+                • SDLC bir Geliştirme Yaşam Döngüsü iken STLC bir Test Yaşam Döngüsüdür.
+                • SDLC'de geliştirme ekibi yüksek ve düşük seviyeli tasarım planlarını oluştururken,
+                  STLC'de test analisti Sistem, Entegrasyon Test Planını oluşturur.
+                • SDLC'de gerçek kod geliştirilir ve tasarım belgelerine göre gerçek çalışma gerçekleştirilirken,
+                  STLC test ekibi test ortamını hazırlar ve test durumlarını yürütür.
+                • SDLC yaşam döngüsü, bir ekibin yazılımın başarılı bir şekilde geliştirilmesini
+                  tamamlamasına yardımcı olurken, STLC aşamaları yalnızca yazılım testini kapsar.
+
+
+
+
+6)  Gereksinim nedir? (Yazılım Gereksinimi)
+                Yazılım gereksinimleri geliştirilmesi istenen üründen nelerin beklendiğinin
+                net açık bir şekilde ifade edilmesidir. Amacına uygun ürünlerin oluşması için beklenenlerin,
+                istenilenlerin yani yazılım gereksinimlerinin net bir şekilde tespit edilmesi önemlidir.
+                Genel de yazılım gereksinimleri belirtilmeden önce taleplerin tanımlanması yani iş birimleri
+                (müşteri, kullanıcı vb.) tarafından gelen istekler ya da şirket içi birimlerden gelen
+                talepler adımı bulunur. Taleplerin yönetilmesi için ayrı departmanların olduğu şirketlerde
+                talep yöneticileri tarafından başlatılan bu süreçte bu isteklerin gereksinime dönüştürülmesi
+                aşaması genelde İş Analistleri tarafından yapılır. İş analistleri gereksinim analizine ilk
+                önce isteklerin, taleplerin yapılabilirliğinin olup olmadığına yani olurluluk çalışması ile başlarlar.
+                Bu çalışma ile başlayan sürecin devamı şekildeki gibi işleyerek ilerlemektedir.
+
+
+
+
+
+
+7)  Yazılım gereksinimi-İhtiyaç nereden geliyor?
+                Doğru anlaşılmış bir ihtiyaç doğru yazılımın geliştirilmesi için atılan en önemli adımdır.
+                Yazılım gereksinimlerinin başarılı şekilde çıkarılması geliştirilecek ürünün başarılı olması açısından,
+                geliştiriciler de oluşacak belirsizliklerin önüne geçmesi açısından çok önemlidir. Zaman olarak büyük
+                tasarruf sağlamasının yanında paydaşlar arasında iletişim sorunlarının da oluşmamasına yardım etmesi
+                faydaları olarak verilebilir. Gereksinimlerin oluşturulmasından sonra yapılması gereken adım belirlenen
+                gereksinimleri dokümantasyonu yapılmadan önce paydaşlar tarafından gözden geçirme işlemi (review) ile
+                doğrulanmasıdır. Gözden geçirmelerde gereksinimler doğruluk, açıklık, anlaşılırlık, yapılabilirlik,
+                tutarlılık, izlenebilirlik, uyumluluk, test edilebilirlik gibi bir dizi kriter açısından gözden geçirilir.
+                Gereksinim Analizi yapılan farklı gereksinim türleri bulunabilir. Müşteri, Sistem, Kullanıcı vb.
+                gereksinimleri kendi içlerinde belli kriterlere göre oluşturulan gereksinimlerdir. Gereksinimler
+                test mühendislerinin referans alabileceği ve testlerin tasarlanmasında kullanılan bir girdi olarak
+                düşünülebilir. Gereksinim doğru tanımlanmış, net açık ve anlaşılır olduğunda hem yazılım mühendisleri
+                hem test mühendisleri kargaşanın içinde olmadan işlerini daha hızlı ve verimli şekilde yapmış olacaklardır.
+                Aslında gereksinimleri sağlamak, açıklığa kavuşturmak, belirtmek ve önceliklendirmek proje paydaşlarının
+                sorumluluğundadır. Fakat bu, sizin oturup proje paydaşlarından tek tek isteklerini sıralamalarını
+                bekleyeceğiniz anlamına gelmiyor. Düzenli toplantılar organize ederek, onları ne istediklerini daha
+                ayrıntılı olarak belirtmeleri ve hatta belki de orijinal gereksinimlerini yeniden gözden geçirmeleri ve
+                değiştirmeleri için motive edebilirsiniz.
+
+
+
+
+8)  Yazılım testi ne zaman başlar?
+
+               Yazılım testi, yazılımın yaşam döngüsünün sadece sonunda yer alan bir aşama değildir.
+               Yazılım testi süreçtir ve yazılım tamamlandıktan sonra da devam eder. Örneğin ürün teslim
+               edildikten sonra ürüne yeni özellikler eklenecek, ürün geliştirilecektir. Bu aşamada yine yazılım
+               testi gerekli olacaktır.
+                    • Test, gereksinimlerin test edilmesiyle başlar
+                      (en olası yanıt gibi görünen kodlama aşamasından sonra değil).
+                    • İlk etapta gerekliliğin doğru olduğundan emin olmalıyız.
+                      Yanlış gereksinimle hata oluşturmak hatalara sebebiyet verir.
+
+
+
+
+9)  Gereksinimin iyi mi kötü mü olduğu nasıl anlaşılır?
+
+
+
+              Peki Gereksinimler Nasıl Olmalıdır? -SMART
+              Spesific-Açık olmalı
+              Measurable- Ölçülebilir olmalı
+              Attaninable- Uygulanabilir olmalı
+              Realisable- Amaca uygun olmalı
+              Testable- Test edilebilir olmalı
+
+
+
+
+10) Neden test ediyoruz?
+
+
+            • Hatasız uygulama oluşturmak için.
+            • Memnun son kullanıcı ve müşteriye.
+            • Daha fazla gelir elde etmek için harika ürünler oluşturmak.
+            • Test etmeyi seviyorum ve test etmek benim tutkum.
+
+
+
+11) Test edenin ana sorumluluğu nedir?
+
+
+           · Gereksinimlerin ne kadar karşılandığından emin olmak,
+           · Ürünün kalite düzeyine karşı güven oluşturmak,
+           · Ürünün test işleminin tamamlandığını ve müşterinin beklediği şekilde çalıştığını onaylamak,
+           · Hataları ve kusurları bulmak ve önlemek,
+           · Yetersiz yazılım ve kalite riskini azaltmak,
+           · Yasal standartlarına uymasını sağlamak bunlardan başlıcalarıdır.
+
+
+12) %100 test mümkün mü?
+
+
+            Hiçbir uygulama % 100 hatasız değildir. Test yapmak, yazılımda bug olmadığını göstermez.
+            Testin amacı, yazılımda hataların olduğunu göstermektir; yazılımda hata kalmadığını
+            ispatlamak değildir. Bu madde, müşterilerin, proje yöneticilerinin ve yönetim ekibinin
+            inandığı çok yaygın bir efsanedir. Yazılım testi, mümkün olduğu kadar test edebileceğimiz
+            işlevselliğin önceliğine dayanan risk tabanlı bir faaliyettir . %100 test mümkün olmasa da
+            %100 müşteri memnuniyeti sağlanmaya çalışılır.
+
+
+
+13) Test hiyerarşisi nedir?
+
+• Birim Testi (Unit Testing) : Dinamik test sürecinin ilk aşaması olmakla beraber,
+  hataların erken bulunup düzeltilebilmesi açısından da bu sürecin en önemli aşamasını oluşturur.
+  Mikro ölçekte yapılan bu testte, özel fonksiyonlar veya kod modülleri
+  (fonksiyonlar, veri yapıları, nesneler vb.) test edilir. Bu test, test uzmanlarınca değil
+  programcılar tarafından yapılır ve program kodunun ayrıntıları ile içsel tasarım biçiminin bilinmesi gerekir.
+  Uygulama kodu çok iyi tasarlanmış bir mimaride değilse oldukça zor bir testtir.
+
+• Tümleyim Testi (Integration Testing) : Bir uygulamanın farklı bileşenlerinin beraberce uyum içinde
+                                         çalışıp çalışmadığını sınamak için yapılan bir testtir.
+                                         Bileşenler, modüller, bağımsız uygulamalar, istemci/sunucu uygulamaları
+                                         biçiminde olabilirler. Bu tür testlere, özellikle istemci/sunucu uygulamaları
+                                         ve dağıtık sistemlerin testinde başvurulmaktadır. Bunun yanısıra uygulamaya
+                                         yeni işlevsel elemanlar ya da program modülleri eklendikçe sürekli test
+                                         edilmesi işlemine de “Artımsal Tümleyim Testi” adı verilir. Test uzmanları
+                                         ve/veya programcılar tarafından gerçekleştirilen testlerdir.
+
+• Regresyon Testi (Regression Testing) : Uygulamada ve uygulama ortamlarında gerekli değişiklikler ve sabitlemeler
+                                         yapıldıktan sonra yeniden yapılan testlere çekilme (regresyon) testi denilir.
+                                         Böylece, önceki testlerde belirlenen sorunların giderildiğinden ve yeni hatalar
+                                         oluşmadığından emin olunur. Uygulamanın kaç kez yeniden test edilmesi
+                                         gerektiğini belirlemek güçtür ve bu nedenle, özellikle uygulama geliştirme
+                                         döneminin sonlarına doğru yapılır.
+
+• Zorlanım – Performans Testi (Performance Testing) : Bu test, çoğu kez "yük testi" ile aynı anlamda kullanılmaktadır.
+                                                      Aynı zamanda, beklenmedik (normal olmayan) ağır yükler, belirli
+                                                      eylemler ve taleplerin çok fazla artışı, çok yoğun sayısal
+                                                      işlemler, çok karmaşık sorgulamalar vb. ağır koşullar altında
+                                                      olan bir sistemin işlevsellik testi (iş yapabilme testi) olarak da
+                                                      tanımlanabilmektedir. Bir web sitesi için sistem tepkisinin hangi
+                                                      noktada azaldığı veya yanıt veremez olduğunu belirlemek için
+                                                      yapılan testler, performans testine örnek teşkil edebilir.
+
+• Kullanıcı Kabul Testi (User Acceptance Testing) : Son kullanıcı veya müşteri siparişine (veya isteklerine) dayanan
+                                                    son test işlemidir. Kullanıcıların, uygulamayı “kabul” etmeden önce,
+                                                    söz konusu uygulamanın gereksinimlerini ne ölçüde karşılayıp
+                                                    karşılamadığını belirleyip, geri dönüş yapabileceği testlerdir.
+
+• Beyaz Kutu Test Tekniği (White Box Testing Technic) : Beyaz kutu test tekniğinin en genel tabiri kod testidir.
+                                                        Projenin hem kaynak kodu hem de derlenmiş kodu test edilir.
+                                                        Bu tür testler, uygulama kodunun iç mantığı üzerindeki bilgiye
+                                                        bağlıdır. Yazılım kodundaki deyimler, akış denetimleri, koşullar
+                                                        vb. elemanlar sınanır.
+
+• Kara Kutu Test Tekniği (Black Box Testing Technic ) : Test ekipleri tarafından en çok kullanılan teknik olan kara kutu
+                                                        test tekniği adından da anlaşılacağı gibi uygulamanın sadece
+                                                        derlenmiş kodu üzerinden test edilmesi olarak bilinir. Bu test
+                                                        tekniğinde, yazılımın programatik yapısı, tasarımı veya kodlama
+                                                        tekniği hakkında herhangi bir bilgi olması gerekli değildir.
+                                                        Yazılımın gereksinimine duyulan şeylere yanıt verip veremediği
+                                                        ve işlevselliği sınanmaktadır.
+
+
+
+
+
+14) Pozitif test nedir? Mutlu Yol testi
+
+• Uygulamayı geçerli girişlerle test etme. "Mutlu Yol" testi olarak da adlandırılır.
+
+
+
+
+15) Uyumluluk testi nedir?
+
+Uyumluluk, müşteri memnuniyetini sağlamak için işlevsel olmayan bir testtir.
+Yazılım uygulamanızın veya ürününüzün farklı tarayıcılarda, veri tabanında, donanımda, işletim sisteminde,
+mobil cihazlarda ve ağlarda çalışacak kadar yetkin olup olmadığını belirlemektir.
+Uyumluluk testi, tüm platformlar için aynı şekilde çalışan uygulamanın kontrol edilmesidir.
+Genellikle, geliştirme ekibi ve test ekibi uygulamayı tek platformda test eder.
+Fakat uygulama üretimde yayınlandıktan sonra müşteri ürünümüzü farklı platformda test edebilir
+ve uygulamada kalite açısından layık olmayan hatalar bulabilir.
+Bu tür sorunları azaltmak ve müşterilerinizi üzmemek için uygulamayı tüm platformlarda test etmeniz önemlidir.
+
+
+
+
+16) Riske dayalı test nedir?
+
+Risk tabanlı test (RBT) esasen risklere bağlı olarak projeler için yapılan bir testtir.
+Riske dayalı test stratejileri, testin yürütülmesi sırasında doğru testleri önceliklendirmek
+ve vurgulamak için risklerden yararlanır.
+Her türlü işlevselliği kontrol etmek için yeterli zamanın olmayabileceği düşünüldüğünde,
+risk tabanlı test esas olarak en büyük etkiyi ve başarısızlık olasılığını taşıyan işlevselliği test etmeye odaklanır.
+
+
+
+
+
+17) Bu regresyon takımını oluşturmak ne kadar sürdü?
+
+• 3 yıl sürdü; 2 test cihazı 1 manuel test cihazı + 1 otomasyon test cihazı çalıştırdığımızda:
+     o serbest bırakılmadan önce
+     o büyük hata düzeltmesinden sonra
+     o büyük yeni işlevlerden sonra
+• test senaryolarını tuttuğumuz ve ekip olarak bir sprintte birden fazla uygulanacak kararı aldığımız
+  yer bazı senaryoları test edersiniz.
+
+
+
+
+18) Regresyon paketini çalıştırırken karşılaşmış olduğunuz zorlukları bize anlatır mısınız?
+
+Regresyon testi canlıda çalışan kodun üzerinde yapılan değişikliklerin kontrolü için kullanılır.
+Bu değişiklikler yeni bir fonksiyon, hata çözümü ya da performans geliştirmesi olabilir.
+Regresyon testleri genellikle değişiklikler son aşamaya geldiğinde ve yazılımın yeni sürümü
+yayınlamadan önce gerçekleştirilir. Regresyon testlerinin öncelikli amacı, uygulamanın kritik
+alanlarının hala beklendiği gibi çalıştığını kontrol etmektedir.
+
+Regresyon testleri:
+                 • Yazılımın değişiklik sonrasında son kalitesinin kontrol edilmesini
+                 • Daha önce çıkan hataların düzeldiğinin kontrolünü
+                 • Yazılım ekibinin ürün hakkında güveninin artmasını sağlar
+
+Regresyon testleri maliyeti büyük testlerdir.
+             Yazılım firmasında maliyet = zamandır ve sürümün hızlı şekilde canlı ortama aktarılması büyük önem taşır.
+             Bu sebeple regresyon test adımları seçiminde bazı önemli noktaları göz önüne almalıyız.
+             Bunlar:
+                   • Kullanıcıların yoğun olarak kullanıldığı alanlar
+                   • Genellikle hata çıkan uygulama alanları
+                   • Ana fonksiyonlar
+                   • Yüksek karmaşık fonksiyonlar
+                   • Son değişikliklerin yapıldığı alanlar
+                   • Önemli entegrasyonlar
+             Regresyon testlerinin doğru şekilde planlanması ve gerçekleştirilmesi,
+             yazılım projelerinin başarıya ulaşması için önemlidir. Bu nedenle canlı geçişleri öncesi,
+             regresyon testleri gerçekleştirerek yazılıma duyulan güveni arttırabiliriz.
+
+
+
+
+19) Kaç environments ortamınız var?
+
+• Geliştirme Ortamı (Development Environment)
+               o Birim testi
+               o Test ortamından daha az kararlı
+
+• Test ortamı (Test Environment)
+              o Manuel test burada gerçekleşir
+              o Üretim ortamını tam olarak çoğaltır
+              o Değişiklikler aralıklarla dağıtılır
+              o Burada otomatik duman testleri yapılır
+
+§ Uygulamanın diğer büyük testleri gerçekleştirmek için yeterince kararlı
+   olduğundan emin olmak için test ortamına karşı çalışır faaliyetler.
+§ Değişiklikler Test ortamına her dağıtıldığında çalıştır
+§ Geliştirme ortamında çalıştırılabilir
+       o Otomasyon testleri burada çalıştırılır
+       o Otomatik Entegrasyon testleri burada çalıştırılır
+
+
+
+
+
+• Üretim Öncesi Ortam (Pre-production Environment)
+
+           o UAT ortamı
+           o Demo burada gerçekleşir
+           o yük/performans testi burada gerçekleşir
+           o Değişiklikler büyük aralıklarla dağıtılır
+           o Burada otomatik majör regresyon testleri (yayınlanmadan önce)
+
+§ UAT ortamına karşı çalışır
+§ Yeni değişikliklerin herhangi bir kusurla sonuçlanıp sonuçlanmadığını öğrenmek için
+§ Büyük hata düzeltmelerinden ve her sürümden sonra çalışır
+§ Bu test, test planında kararlaştırılır
+o Çok kararlı
+
+
+• Üretim ortamı (Production environment)
+
+
+
+20) Regresyon testinin hangi bölümü otomatikleştirilmelidir?
+• Kararlı testler
+• Sık tekrarlanan otomasyon adayları
+• Basittir ve test cihazı girişi gerektirmez iyidir
+Uygulamanın ne sıklıkla test edileceğini belirlemek zordur,
+bu yüzden uygulama geliştirme döneminin sonlarına doğru yapılır.
+Bu sayede, bütün bir projenin ne kadar değişim yaşadığı ve güncellemelerden
+ne derece etkilendiği daha net bir şekilde belirlenebilir.
+Uygulama altyapısı tamamen tanımlanmış duruma getirildiğinde regresyon testleri yapılmaya başlanır.
